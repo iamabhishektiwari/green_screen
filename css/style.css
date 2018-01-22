@@ -1,0 +1,26 @@
+body {
+  background-color: #999;
+  text-align: center;
+  color: #FBFBFF;
+  font-family: Helvetica, Arial;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: Helvetica, Arial;
+  font-size: 25px;
+  color: black;
+}
+
+canvas {
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+}
+.right{
+  align-content: right;
+}
+.left{
+  align-content: left;
+}
+

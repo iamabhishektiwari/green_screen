@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Green|Screen</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- Calls the DLTP library -->
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<h1>Merge and play<h1>
+
+<!-- Defines canvas for the foreground image -->
+<canvas id="foreground"> </canvas>
+
+<!-- Defines canvas for the composite image -->
+<canvas id="composite"></canvas>
+
+<!-- Defines canvas for the composite image -->
+<canvas id="background"></canvas>
+<p>
+
+<!-- Creates foreground image input -->
+<p class="left">Top image:
+<input type="file" multiple="false" accept="image/*" id="fgImage" onchange="loadfgImage()"></p>
+  
+<!-- Creates background image input -->
+<p class="right">Background : 
+<input type="file" multiple="false" accept="image/*" id="bgImage" onchange="loadbgImage()"></p>
+  
+<!-- Merges both images and sans fg background -->
+<input type="button" value="Merge" id="gray" onclick="GS()">
+  
+<!-- Clears canvases -->
+<input type="button" value="delete all images" id="gray" onclick="del()">
+
+</p>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
